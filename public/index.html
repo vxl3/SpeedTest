@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>نبض | فحص سرعة الإنترنت</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="orb o1"></div><div class="orb o2"></div>
+<header><a class="brand" href="#"><span class="brand-mark">⌁</span><span>NABD<span>H</span></span></a><div class="header-actions"><span class="secure"><i></i><b data-i="secure">اتصال آمن</b></span><button class="lang" id="langBtn">EN</button></div></header>
+<main>
+ <section class="intro"><p class="eyebrow" data-i="eyebrow">مقياس الشبكة الذكي</p><h1 data-i="title">اعرف سرعة اتصالك<br><em>بوضوح.</em></h1><p class="lead" data-i="lead">فحص مباشر بين جهازك وخادم الاختبار. نتائج تعتمد على اتصالك الفعلي الآن.</p></section>
+ <section class="test-card">
+   <div class="state" id="state" data-i="ready">جاهز للاختبار</div>
+   <div class="dial" id="dial"><div class="ring ring2"></div><div class="ring ring1"></div><div class="needle"></div><div class="dial-main"><strong id="liveSpeed">0.00</strong><span id="unit">Mbps</span><small id="phase" data-i="waiting">بانتظار البدء</small></div></div>
+   <button class="go" id="start"><span class="play">▶</span><span data-i="start">بدء الاختبار</span></button>
+   <p class="notice" data-i="notice">للحصول على أدق نتيجة، أوقف التنزيلات والتطبيقات الأخرى.</p>
+ </section>
+ <section class="metrics" aria-live="polite">
+   <article><div class="metric-icon latency">↯</div><p data-i="ping">زمن الاستجابة</p><strong id="ping">— <small>ms</small></strong><span id="jitter">Jitter — ms</span></article>
+   <article><div class="metric-icon down">↓</div><p data-i="download">التنزيل</p><strong id="download">— <small>Mbps</small></strong><span data-i="downloadHint">من الخادم إلى جهازك</span></article>
+   <article><div class="metric-icon up">↑</div><p data-i="upload">الرفع</p><strong id="upload">— <small>Mbps</small></strong><span data-i="uploadHint">من جهازك إلى الخادم</span></article>
+ </section>
+ <section class="connection"><div><p data-i="connection">معلومات الاتصال</p><strong id="ip">—</strong><span id="server">—</span></div><div class="quality"><p data-i="quality">تقييم الاتصال</p><strong id="rating">—</strong><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></div></section>
+ <p class="foot" data-i="method">تُحسب النتائج بالبيانات التي تنتقل فعلياً بين متصفحك وخادم الاختبار. قد تختلف حسب ازدحام الشبكة والخادم.</p>
+</main><script src="app.js"></script></body></html>
