@@ -1,0 +1,6 @@
+name = "nabdh-speedtest"
+compatibility_date = "2026-08-12"
+pages_build_output_dir = "./public"
+
+# Cloudflare Pages automatically discovers API handlers in ./functions.
+# No secrets or environment variables are required.
